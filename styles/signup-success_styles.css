@@ -1,0 +1,49 @@
+/* Updated styles for the Signup Successful page */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff; /* White background */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  max-width: 500px; /* Set a maximum width */
+  margin: auto;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff; /* White background for container */
+}
+
+h1 {
+  color: #333; /* Heading color */
+}
+
+p {
+  color: #555; /* Paragraph text color */
+  font-size: 18px; /* Font size */
+  margin-top: 20px; /* Adjust top margin */
+}
+
+.login-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3498db; /* Button background color */
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.login-link:hover {
+  background-color: #2980b9; /* Darker color on hover */
+}

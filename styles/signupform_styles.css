@@ -1,0 +1,107 @@
+/* Updated styles for the form box and signup form */
+
+body {
+  background-color: #4caf50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+button {
+  width: calc(100% - 40px); /* Adjusting the input width */
+  padding: 12px;
+  margin: 6px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #aaa; /* Placeholder text color */
+  font-style: italic; /* Placeholder style */
+  text-align: center; /* Centered placeholder */
+}
+
+/* Updated styles for the form box and signup form */
+
+body {
+  background-color: #3498db; /* Blue background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px; /* More rounded corners */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+button {
+  width: calc(100% - 40px);
+  padding: 12px;
+  margin: 6px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #aaa;
+  font-style: italic;
+  text-align: center;
+}
+
+button {
+  background-color: #3498db; /* Blue button color */
+  color: #fff;
+  transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
